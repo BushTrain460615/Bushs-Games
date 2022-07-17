@@ -1,4 +1,4 @@
-#Johnny cat has tooken full owner ship of this website so no more updates from here
+# Johnny cat has tooken full owner ship of this website so no more updates from here
 * [JonnyCat](https://github.com/ItsyourboyJonnycat)
 
 # Play-And-Game

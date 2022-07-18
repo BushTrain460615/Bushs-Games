@@ -80,6 +80,22 @@
     </div> 
 
 <head>
+	<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'Welcome To Cool Meth Games!';
+var speed = 30;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+	
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box}

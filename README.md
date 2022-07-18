@@ -5,3 +5,4 @@ The Coolest Methest games
 ## Credits
 * [BushTrain460615](https://github.com/BushTrain460615)
 * [BlockBoi](https://github.com/Mr-funkinguy)
+* [JuniorNovoa](https://github.com/JuniorNovoa1)

@@ -23,7 +23,7 @@ h1 {
 }
 
 body {
-    background-image: url('Background/dometh.png');
+    background-image: url("Images/backgrounds/dometh.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

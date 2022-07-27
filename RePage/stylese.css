@@ -23,7 +23,7 @@ h1 {
 }
 
 body {
-    background-image: url("RePage/Backround.png");
+    background-image: url("/RePage/Backround.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

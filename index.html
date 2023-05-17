@@ -67,7 +67,14 @@
   </style>
   </head>
   <body>
-
+    <div id="AlertMsg" style="position: fixed; z-index: 90; width: 100%; height: 100%; background-color: #2727277b;">
+      <div style="top: 50%; left: 50%; transform:translate(-50%, -50%); z-index: 90; position: absolute; width: 50%; height: 35%; border-radius:15px; background-color: rgba(33, 33, 33, 0.949);">
+        <span class="closebtn" style="cursor: pointer; font-size: 25px;" onclick="document.getElementById('AlertMsg').style.display='none';">&times;</span> 
+        <h3 style="text-align: center;">Warning!</h3> 
+        <h1>Go to the port server this website is to hard to manage. </h1>
+        <h3 onclick='window.open("https://discord.gg/4cDPxpv62C","_self")' style="cursor: pointer; text-align: center;"> Go</h3>
+      </div>
+      </div>
     <div class="header">
     <a href="index.html" text-align: center; class="logo">Cool Meth Games</a>
     <div class="header-right">
@@ -80,21 +87,17 @@
       </div>
     </div> 
 <head>
-	<p id="demo"></p>
+	<p style="text-align: center; font-size: xx-large;" id="demo"></p>
 <script>
 	
-<script>
+
       var delayInMilliseconds = 10000; 
 
       setTimeout(function() {
-       window.open("https://discord.gg/4cDPxpv62C","_self")  
+       //window.open("https://discord.gg/4cDPxpv62C","_self")  
        }, delayInMilliseconds);    
 </script>
 
-<div class="notification notification-warning">
-  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-  <strong>Warning!</strong> Go to the port server this website is to hard to manage.
-</div>
 
 <script>	
 var i = 0;
@@ -168,6 +171,10 @@ img {vertical-align: middle;}
   padding: 8px 12px;
   position: absolute;
   top: 0;
+}
+
+img {
+  border-radius: 30px;
 }
 
 /* The dots/bullets/indicators */
@@ -268,7 +275,7 @@ function showSlides(n) {
 
 </body>
 
-<h2>MacOS</h2>
+<h2 style="text-align: center;">MacOS</h2>
 	  	  
 <a href="https://www.dropbox.com/s/kmwq444apmpsdpx/Nike%20Engine.app.zip?dl=1" download>
   <img src="Images/logos/FNF.png" width="300" height="300">
@@ -294,7 +301,7 @@ function showSlides(n) {
   <img src="Images/logos/Psych.jpg" width="300" height="300">
 </a> 
 	
-<h2>HTML5</h2>
+<h2 style="text-align: center;">HTML5</h2>
 	  
 <a href="nikeEngine.html">
   <img src="Images/logos/FNF.png" width="300" height="300">
@@ -305,7 +312,7 @@ function showSlides(n) {
   <img src="Images/logos/neo.png" width="300" height="300">
 </a>  
 	
-<h2>HTML5 Mobile</h2>
+<h2 style="text-align: center;">HTML5 Mobile</h2>
 
 <a href="https://bushtrain460615.github.io/FNF-Mobile-HTML5/">
   <img src="Images/logos/FNF.png" width="300" height="300">
@@ -315,7 +322,7 @@ function showSlides(n) {
   <img src="Images/logos/annie.png" width="300" height="300">
 </a>   
 	  
-<h2>Android</h2>
+<h2 style="text-align: center;">Android</h2>
 	  
 <a href="https://github.com/MAJigsaw77/Impostor-V4-Fanmade/releases/download/Impostor-v4-Fanmade-Android-1.2/VS.Impostor.V4-debug.apk" download>
   <img src="Images/logos/vs imposter.png" width="300" height="300">
